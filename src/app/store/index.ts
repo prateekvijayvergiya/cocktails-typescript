@@ -3,7 +3,7 @@ import drinksReducer from './reducer'
 
 const store = configureStore({
   reducer: {
-    counter: drinksReducer,
+    drinks: drinksReducer,
   },
 })
 

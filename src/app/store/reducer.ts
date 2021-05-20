@@ -35,7 +35,7 @@ export const drinksSlice = createSlice({
   },
 })
 
-export const selectDrinks = (state: initialStateType) => state.drinks
-export const selectIsLoading = (state: initialStateType) => state.isLoading
+export const selectDrinks = (state: any) => state.drinks.drinks
+export const selectIsLoading = (state: any) => state.drinks.isLoading
 
 export default drinksSlice.reducer
